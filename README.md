@@ -1,12 +1,12 @@
-# 🎵 Spotify Genre Segmentation Project
+#  Spotify Genre Segmentation Project
 
-## 📘 Overview
+##  Overview
 This project performs **genre-based segmentation** of Spotify songs using **machine learning** and **unsupervised clustering** techniques.  
 The goal is to analyze audio features, identify natural groupings among songs, and visualize the relationships between genres in a 2D or 3D space.
 
 ---
 
-## 🚀 Features
+##  Features
 - Data preprocessing and cleaning using **pandas** and **NumPy**  
 - Feature scaling with **StandardScaler**  
 - Dimensionality reduction using **PCA** and **t-SNE**  
@@ -16,7 +16,7 @@ The goal is to analyze audio features, identify natural groupings among songs, a
 
 ---
 
-## 🧠 Algorithms Used
+##  Algorithms Used
 | Technique | Purpose |
 |------------|----------|
 | PCA | Reduces high-dimensional data |
@@ -27,7 +27,7 @@ The goal is to analyze audio features, identify natural groupings among songs, a
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 │
 ├── spotify_songs.csv              # Dataset
 ├── spotify_genre_segmentation.py  # Main Python script
@@ -35,25 +35,25 @@ The goal is to analyze audio features, identify natural groupings among songs, a
 └── README.md                      # Project description
 ---
 
-## ⚙️ Requirements
+##  Requirements
 Install the dependencies using pip:
 ```bash
 pip install pandas numpy scikit-learn matplotlib
-📊 Outputs
+� Outputs
 	•	Cluster plots (saved in the figures/ folder)
 	•	Model comparison table with accuracy metrics
 	•	Visualizations of song embeddings and cluster boundaries
 
 ⸻
 
-🧩 Results & Insights
+Results & Insights
 	•	The best clustering model is determined using silhouette and Davies-Bouldin scores.
 	•	Similar genres are grouped closer in the reduced 2D embedding.
 	•	Insights can help identify hidden genre patterns and recommendation trends.
 
 ⸻
 
-🧑‍💻 Author
+ Author
 
 Mohammad Daulah
 B.Tech – Artificial Intelligence & Machine Learning
